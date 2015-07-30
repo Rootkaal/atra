@@ -1,0 +1,106 @@
+/*
+Theme Name: Zephyr Child
+Template: Zephyr
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://zephyr.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+.l-subheader.at_middle{
+  background: linear-gradient(to right, #1A6393 0%,#1A6393 48%, #1A6393 50%, #1B8BC8 50%,#1B8BC8 100%);
+}
+.l-subheader.at_middle{
+	height:auto !important;
+}
+.bg-img {
+	height:350px;
+}
+.bg-img-2{
+	height:auto;
+}
+form.wpcf7-form {
+  max-width: 450px;
+  background-color: rgba(22, 46, 85, 0.75);
+  padding: 8% 7% 2%;
+/*  border-radius: 2%;*/
+  color: #ffffff;
+}
+a.g-btn.color_white.type_raised {
+  background-color: #1B8BC2;
+  color: #ffffff;
+  font-weight: 500;
+}
+.l-header .type_desktop .w-nav-anchor.level_1{
+  font-size: 16px !important;
+}
+
+.no-touch .w-socials-item.rss .w-socials-item-link:hover, .w-socials.inverted .rss .w-socials-item-link {
+	background-color: #539FBC !important;
+	}
+
+  .l-submain-h {
+  padding: 50px 0;
+}
+
+  .w-socials-item{
+    padding: 10px 15px;
+  }
+  .w-socials.size_normal .w-socials-item-popup {
+    bottom: 75px;
+    left: 13px;
+    background-color: #888;
+}
+.w-socials-list {
+  margin: 15px 0 -4px;
+}
+.w-socials-item-popup:after {
+  border-top: 6px solid rgba(136,136,136,1);
+}
+p.p1 {
+  font-size: 15px;
+}
+.menu-item-5088, .menu-item-5089{
+  float: right !important;
+}
+
+/*IDIOMAS*/
+.languages-atra {
+  position: absolute;
+  bottom: 35px;
+  right: -40px;
+  height: 5px;
+}
+
+.languages-atra li{
+  color: #fff;
+  display: inline-block !important;
+  width: auto !important;
+}
+.languages-atra a {
+  padding: 0 10px !important;
+}
+.languages-atra img {
+  max-height: 30px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1000px) {
+.languages-atra {
+  bottom: 35px;
+  right: -25px;
+}
+.languages-atra img {
+  max-height: 40px;
+}
+}
+@media screen and (max-width: 599px) {
+.languages-atra {
+    bottom: 40px;
+  right: -15px;
+}
+}
+
+
+
