@@ -176,14 +176,16 @@ $lang_class = (defined('ICL_LANGUAGE_CODE') AND ICL_LANGUAGE_CODE != '')?' wpml_
 
 				<div class="w-logo <?php if (@$smof_data['logo_as_text'] == 1) { echo ' with_title'; } ?><?php if ( ! empty($smof_data['custom_logo_transparent'])) { echo ' with_transparent'; } ?>">
 					<a class="w-logo-link" href="<?php if (function_exists('icl_get_home_url')) echo icl_get_home_url(); else echo esc_url(home_url('/')); ?>">
+
 						<?php if ( ! empty($smof_data['custom_logo']) OR ! empty($smof_data['custom_logo_transparent'])): ?>
 						<span class="w-logo-img">
 							<?php if ( ! empty($smof_data['custom_logo'])): ?>
-								<img class="for_default" src="<?php echo esc_url($smof_data['custom_logo']); ?>" alt="<?php bloginfo('name'); ?>">
+								<img class="for_default" src="<?php if (is_page('homepage')) { echo 'http://atrasolmed.com/wp-content/uploads/2015/08/logo_en.png';} else {echo esc_url($smof_data['custom_logo']);} ?>" alt="<?php bloginfo('name'); ?>">
 							<?php endif; ?>
 							<?php if ( ! empty($smof_data['custom_logo_transparent'])): ?>
 								<img class="for_transparent" src="<?php echo esc_url($smof_data['custom_logo_transparent']); ?>" alt="<?php bloginfo('name'); ?>">
 							<?php endif; ?>
+							
 						</span>
 						<?php endif; ?>
 						<span class="w-logo-title"><?php if (@$smof_data['logo_text'] != ''){ echo @$smof_data['logo_text']; } else { bloginfo('name'); } ?></span>

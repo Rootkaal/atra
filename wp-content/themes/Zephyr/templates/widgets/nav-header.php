@@ -51,10 +51,10 @@ $menu_hover_effect_class = ( ! empty($smof_data['menu_hover_effect']) AND $smof_
 	</ul>
 	<ul class="languages-atra">
 		<li class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-5071">
-				<a class="w-nav-anchor level_1" href="#"><img src="http://atrasolmed.com/wp-content/uploads/2015/06/en_icon2.png"></a>
+				<a class="w-nav-anchor level_1" href="/homepage"><img src="http://atrasolmed.com/wp-content/uploads/2015/06/en_icon2.png"></a>
 			</li>
 			<li class="menu-item menu-item-type-custom menu-item-object-custom w-nav-item level_1 menu-item-5072">
-				<a class="w-nav-anchor level_1" href="#"><img src="http://atrasolmed.com/wp-content/uploads/2015/06/es_icon2.png"></a>
+				<a class="w-nav-anchor level_1" href="/"><img src="http://atrasolmed.com/wp-content/uploads/2015/06/es_icon2.png"></a>
 			</li>
 
 	</ul>
